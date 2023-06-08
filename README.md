@@ -1,4 +1,4 @@
-# Leads Tracker
+# Color Picker
 
 ### A simple personal Chrome extension tool.
 
