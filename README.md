@@ -2,7 +2,7 @@
 
 ### A simple personal Chrome extension tool.
 
-## Function
+## Functionality
 
 - [x] Color picker
   - extract color to value hex or rgb
