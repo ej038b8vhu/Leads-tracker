@@ -84,12 +84,13 @@ function save(key, value) {
 function render(leads) {
   let listItems = "";
   leads.forEach((lead, i) => {
-    const isAddress = lead.indexOf("://");
+    const isHttps = lead.indexOf("https://");
+    const isHttp = lead.indexOf("http://");
     listItems += `
             <li>
                 <button class="url-delete-btn" data-index=${i}> X </button>
                 ${
-                  isAddress !== -1
+                  isHttps !== -1 || isHttp !== -1
                     ? `<a target='_blank' href=${lead}>${lead}</a>`
                     : `<a>${lead}</a>`
                 }
