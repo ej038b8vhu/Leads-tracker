@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "version": "1.0",
-    "name": "Leads tracker",
-    "description": "It's a web page tool.",
+    "name": "Color picker",
+    "description": "A web page tool.",
     "icons": {
         "16": "icon16.png",
         "90": "icon90.png"
